@@ -34,24 +34,48 @@
     font-family: 'AlegreyaSans-ExtraBoldItalic';
     font-style: normal;
     font-weight: normal;
-    src: local('AlegreyaSans-ExtraBoldItalic'), url('../fonts/AlegreyaSans-ExtraBoldItalic.ttf') format('opentype');
+    src: local('AlegreyaSans-ExtraBoldItalic'), url('../fonts/AlegreyaSans-ExtraBoldItalic.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'AlegreyaSans-Black';
+    font-family: 'AlegreyaSans-Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('AlegreyaSans-Black'), url('../fonts/AlegreyaSans-Black.ttf') format('opentype');
+    src: local('AlegreyaSans-Regular'), url('../fonts/AlegreyaSans-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'AlegreyaSans-Black';
+    font-family: 'Montserrat-Black';
     font-style: normal;
     font-weight: normal;
-    src: local('AlegreyaSans-Black'), url('../fonts/AlegreyaSans-Black.ttf') format('opentype');
+    src: local('Montserrat-Black'), url('../fonts/Montserrat-Black.otf') format('opentype');
 }
 @font-face {
-    font-family: 'AlegreyaSans-Black';
+    font-family: 'Montserrat-BlackItalic';
     font-style: normal;
     font-weight: normal;
-    src: local('AlegreyaSans-Black'), url('../fonts/AlegreyaSans-Black.ttf') format('opentype');
+    src: local('Montserrat-BlackItalic'), url('../fonts/Montserrat-BlackItalic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat-ExtraBold'), url('../fonts/Montserrat-ExtraBold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Montserrat-BoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat-BoldItalic'), url('../fonts/Montserrat-BoldItalic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat-SemiBold'), url('../fonts/Montserrat-SemiBold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat-Medium'), url('../fonts/Montserrat-Medium.otf') format('opentype');
 }
 

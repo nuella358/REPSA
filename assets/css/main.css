@@ -140,16 +140,6 @@ box-sizing: border-box;
 padding: 0px 30px;
 }
 
-.logo{
-    width: 322px;
-    height: 204px;
-    left: 38px;
-    top: 13px;
-}
-
-.navigation{
-
-}
 
 
 /*@media only screen and (max-width: 1199px) and (min-width: 992px){
@@ -174,4 +164,22 @@ padding: 0px 30px;
 .hero-img{
     max-width: 100%;
     max-height: 100%;
+    object-fit: contain;
 }
+
+svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.volunteer{
+    width:100%;
+    position:relative;
+    top:0;
+    bottom:0; 
+}
+    
+
+
+

@@ -1,0 +1,57 @@
+/*REPSA Style GuideLine */
+
+@font-face {
+    font-family: 'AlegreyaSans-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-Black'), url('../fonts/AlegreyaSans-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-Bold'), url('../fonts/AlegreyaSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans-ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-ExtraBold'), url('../fonts/AlegreyaSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans-BlackItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-BlackItalic'), url('../fonts/AlegreyaSans-BlackItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-Medium'), url('../fonts/AlegreyaSans-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans-ExtraBoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-ExtraBoldItalic'), url('../fonts/AlegreyaSans-ExtraBoldItalic.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'AlegreyaSans-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-Black'), url('../fonts/AlegreyaSans-Black.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'AlegreyaSans-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-Black'), url('../fonts/AlegreyaSans-Black.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'AlegreyaSans-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AlegreyaSans-Black'), url('../fonts/AlegreyaSans-Black.ttf') format('opentype');
+}
+

@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <title>REPSA</title>
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://s.w.org" />
+        <link rel="stylesheet" href="assets/cache/minify/1e8a0.css" media="all" />
+        <link rel="stylesheet" id="material-icons-css" href="https://fonts.googleapis.com/icon?family=Material+Icons&ver=5.5.2" type="text/css" media="all" />
+        <link rel="stylesheet" href="assets/cache/minify/ffcef.css" media="all" />
+        <link rel="stylesheet" href="assets/cache/minify/edd85.css" media="all" />
+        <link rel="stylesheet" href="assets/cache/minify/0c5d4.css" media="all" />
+        <link rel="stylesheet" href="assets/cache/minify/f6d7e.css" media="all" />
+        <link
+            rel="stylesheet"
+            id="rightcause-google-fonts-css"
+            href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700%7CRaleway:300,400,500,600,700%7CCedarville+Cursive:300,400,500,600,700&subset=latin-ext&ver=1.0.0"
+            type="text/css"
+            media="all"
+        />
+        <link rel="stylesheet" href="assets/cache/minify/7f015.css" media="all" />
+        <style type="text/css">
+            
+        </style>
+         <link rel="stylesheet" href="assets/cache/minify/6720b.css" media="all" />
+        <link rel="stylesheet" href="assets/cache/minify/3d6ff.css" media="all" />
+        <link
+            rel="stylesheet"
+            id="google-fonts-1-css"
+            href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CRoboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&ver=5.5.2"
+            type="text/css"
+            media="all"
+        />
+        <script src="assets/cache/minify/933ca.js"></script>
+        
+        <script src="assets/cache/minify/766b8.js"></script>
+        <link rel="canonical" href="index.html" />
+        <link rel="shortlink" href="index.html" />
+
+        <meta property="og:site_name" content="REPSA" />
+        <meta property="og:url" content="https://repsa.org.ng" />
+        <meta property="og:locale" content="en_NG" />
+        <meta property="og:description" content="" />
+        <meta property="og:title" content="REPSA" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="REPSA" />
+        <meta name="twitter:description" content="" />
+
+        <link rel="icon" href="assets/" sizes="32x32" />
+        <link rel="icon" href="assets/" sizes="192x192" />
+        <link rel="apple-touch-icon" href="assets/" />
+        <meta name="msapplication-TileImage" content="assets/" />
+        <script type="text/javascript">
+            function setREVStartSize(e) {
+                //window.requestAnimationFrame(function() {
+                window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+                window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+                try {
+                    var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                        newh;
+                    pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+                    e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+                    e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+                    e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+                    e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+                    e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+                    e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+                    e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+                    if (e.layout === "fullscreen" || e.l === "fullscreen") newh = Math.max(e.mh, window.RSIH);
+                    else {
+                        e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                        for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                        e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+                        e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                        for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+                        var nl = new Array(e.rl.length),
+                            ix = 0,
+                            sl;
+                        e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+                        e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+                        e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+                        e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+                        for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+                        sl = nl[0];
+                        for (var i in nl)
+                            if (sl > nl[i] && nl[i] > 0) {
+                                sl = nl[i];
+                                ix = i;
+                            }
+                        var m = pw > e.gw[ix] + e.tabw + e.thumbw ? 1 : (pw - (e.tabw + e.thumbw)) / e.gw[ix];
+                        newh = e.gh[ix] * m + (e.tabh + e.thumbh);
+                    }
+                    if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+                    document.getElementById(e.c).height = newh + "px";
+                    window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
+                } catch (e) {
+                    console.log("Failure at Presize of Slider:" + e);
+                }
+                //});
+            }
+        </script>
+    </head>
+    <body
+        class="home page-template page-template-page-full-width page-template-page-full-width-php page page-id-3925 qode-framework-1.1 give-test-mode give-page repsa-age-verification--opened repsa-back-to-top--enabled repsa-content-grid-1300 repsa-content-behind-header repsa-header--light repsa-header--minimal repsa-header-appearance--none repsa-mobile-header--standard repsa-drop-down-second--full-width rightcause-core-1.0 rightcause-1.0.1 repsa-search--fullscreen elementor-default elementor-kit-18 elementor-page elementor-page-3925"
+        itemscope
+        itemtype="https://schema.org/WebPage"
+    >
+        <div id="repsa-page-wrapper" class="">
+            <header id="repsa-page-header">
+                <div id="repsa-page-header-inner">
+                    <a itemprop="url" class="repsa-header-logo-link repsa-height--not-set" href="index.html" rel="home">
+                        <img width="205" height="106" src="assets/images/default/logo-new.png" class="repsa-header-logo-image repsa--main" alt="logo main" loading="lazy" />
+                        <img width="205" height="106" src="assets/images/default/logo-new.png" class="repsa-header-logo-image repsa--dark" alt="logo dark" loading="lazy" />
+                        <img width="205" height="106" src="assets/images/default/logo-new.png" class="repsa-header-logo-image repsa--light" alt="logo light" loading="lazy" />
+                    </a>
+                    <nav class="repsa-header-navigation" role="navigation" aria-label="Top Menu">
+                        <ul id="menu-main-menu-1" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-499 repsa-menu-item--narrow">
+                                <a href="index.html"><span class="repsa-menu-item-text">Home</span></a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-500 repsa-menu-item--narrow">
+                                <a href="about.html"><span class="repsa-menu-item-text">About</span></a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-501 repsa-menu-item--narrow">
+                                <a href="donations.html"><span class="repsa-menu-item-text">Donations</span></a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-502 repsa-menu-item--narrow">
+                                <a href="index.html#"><span class="repsa-menu-item-text">Events</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="repsa-widget-holder">
+                        <div id="text-6" class="widget widget_text repsa-header-widget-area-one" data-area="header-widget-one">
+                            <div class="textwidget">
+                                <a
+                                    class="repsa-shortcode repsa-m repsa-button repsa-layout--filled repsa-html--link"
+                                    href="../donations/zebra-4200-in-the-whole-world/index.html"
+                                    target="_self"
+                                    data-hover-background-color="#C00E0A"
+                                    style="background-color: #cf2420;"
+                                    rel="noopener noreferrer"
+                                >
+                                    <span class="repsa-m-icon-wrapper">
+                                        <span class="repsa-shortcode repsa-m repsa-icon-holder repsa-size--default repsa-layout--normal" data-hover-background-color="#C00E0A">
+                                            <span class="repsa-icon-fontkiko kiko-heart-symbol repsa-icon repsa-e" style="font-weight: 600; font-size: 22px;"></span>
+                                        </span>
+                                    </span>
+                                    <span class="repsa-m-text">Donate Now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <header id="repsa-page-mobile-header">
+                <div id="repsa-page-mobile-header-inner">
+                    <a itemprop="url" class="repsa-mobile-header-logo-link" href="../index.html" style="height: 50px;" rel="home">
+                        <img width="138" height="106" src="assets/images/default/logo-new.png" class="repsa-header-logo-image repsa--main" alt="logo main" loading="lazy" />
+                        <img width="205" height="106" src="assets/images/default/logo-new.png" class="repsa-header-logo-image repsa--dark" alt="logo dark" loading="lazy" />
+                        <img width="205" height="106" src="assets/images/default/logo-new.png" class="repsa-header-logo-image repsa--light" alt="logo light" loading="lazy" />
+                    </a>
+                    <a class="repsa-mobile-header-opener" href="index.html#"><span class="repsa-icon-font-awesome fa fa-bars"></span></a>
+                    <nav class="repsa-mobile-header-navigation" role="navigation" aria-label="Mobile Menu">
+                        <ul id="menu-main-menu-3" class="repsa-content-grid">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="index.html#"><span class="repsa-menu-item-text">Home</span></a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="index.html#"><span class="repsa-menu-item-text">About</span></a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="index.html#"><span class="repsa-menu-item-text">Donations</span></a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="index.html#"><span class="repsa-menu-item-text">Events</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div id="repsa-page-outer">
+                <div class="repsa-page-title repsa-m repsa-title--standard repsa-alignment--center repsa-vertical-alignment--header-bottom repsa-subtitle--yes">
+                    <div class="repsa-m-inner">
+                        <div class="repsa-m-content repsa-content-grid">
+                            <p class="repsa-m-subtitle">About us</p>
+                            <h1 class="repsa-m-title entry-title">
+                                Learn About Us And How We Can Help You
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="repsa-page-inner" class="repsa-content-full-width">
+                    <main id="repsa-page-content" class="repsa-grid repsa-layout--template">
+                        <div class="repsa-grid-inner clear">
+                            <div class="repsa-grid-item repsa-page-content-section repsa-col--12">
+                                <div data-elementor-type="wp-page" data-elementor-id="1313" class="elementor elementor-1313" data-elementor-settings="[]">
+                                    <div class="elementor-inner">
+                                        <div class="elementor-section-wrap">
+                                            <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-228e9a6 repsa-elementor-content-grid elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="228e9a6"
+                                                data-element_type="section"
+                                            >
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b3abb19" data-id="b3abb19" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-bc7d7c5 elementor-widget elementor-widget-rightcause_core_image_gallery"
+                                                                        data-id="bc7d7c5"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_image_gallery.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div
+                                                                                class="repsa-shortcode repsa-m repsa-image-gallery repsa-grid repsa-layout--masonry repsa-items--fixed repsa-gutter--small repsa-col-num--3 repsa-responsive--predefined"
+                                                                            >
+                                                                                <div class="repsa-grid-inner clear">
+                                                                                    <div class="repsa-grid-masonry-sizer"></div>
+                                                                                    <div class="repsa-grid-masonry-gutter"></div>
+                                                                                    <div class="repsa-e repsa-image-wrapper repsa-grid-item repsa-item--landscape">
+                                                                                        <div class="repsa-item-inner">
+                                                                                            <a itemprop="url" class="repsa-ig-custom-link" href="../donations" target="_blank">
+                                                                                                <img
+                                                                                                    width="800"
+                                                                                                    height="391"
+                                                                                                    src="../assets/default/home2-img2.jpg"
+                                                                                                    class="attachment-rightcause_image_size_landscape size-rightcause_image_size_landscape"
+                                                                                                    alt="a"
+                                                                                                    loading="lazy"
+                                                                                                    srcset="
+                                                                                                        ../assets/default/home2-img2.jpg         800w,
+                                                                                                        ../assets/default/home2-img2-300x147.jpg 300w,
+                                                                                                        ../assets/default/home2-img2-768x375.jpg 768w
+                                                                                                    "
+                                                                                                    sizes="(max-width: 800px) 100vw, 800px"
+                                                                                                />
+                                                                                            </a>
+                                                                                            <a itemprop="url" class="repsa-ig-custom-text" href="../donations" target="_blank">
+                                                                                                Awareness month
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="repsa-e repsa-image-wrapper repsa-grid-item repsa-item--square">
+                                                                                        <div class="repsa-item-inner">
+                                                                                            <a itemprop="url" class="repsa-ig-custom-link" href="../donations" target="_blank">
+                                                                                                <img
+                                                                                                    width="310"
+                                                                                                    height="310"
+                                                                                                    src="../assets/default/home2-img3.jpg"
+                                                                                                    class="attachment-rightcause_image_size_square size-rightcause_image_size_square"
+                                                                                                    alt="a"
+                                                                                                    loading="lazy"
+                                                                                                    srcset="
+                                                                                                        ../assets/default/home2-img3.jpg         310w,
+                                                                                                        ../assets/default/home2-img3-300x300.jpg 300w,
+                                                                                                        ../assets/default/home2-img3-150x150.jpg 150w
+                                                                                                    "
+                                                                                                    sizes="(max-width: 310px) 100vw, 310px"
+                                                                                                />
+                                                                                            </a>
+                                                                                            <a itemprop="url" class="repsa-ig-custom-text" href="../donations" target="_blank">People&#039;s stories</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="repsa-e repsa-image-wrapper repsa-grid-item repsa-item--square">
+                                                                                        <div class="repsa-item-inner">
+                                                                                            <a itemprop="url" class="repsa-ig-custom-link" href="../donations/" target="_blank">
+                                                                                                <img
+                                                                                                    width="310"
+                                                                                                    height="310"
+                                                                                                    src="../assets/default/home2-img4.jpg"
+                                                                                                    class="attachment-rightcause_image_size_square size-rightcause_image_size_square"
+                                                                                                    alt="a"
+                                                                                                    loading="lazy"
+                                                                                                    srcset="
+                                                                                                        ../assets/default/home2-img4.jpg         310w,
+                                                                                                        ../assets/default/home2-img4-300x300.jpg 300w,
+                                                                                                        ../assets/default/home2-img4-150x150.jpg 150w
+                                                                                                    "
+                                                                                                    sizes="(max-width: 310px) 100vw, 310px"
+                                                                                                />
+                                                                                            </a>
+                                                                                            <a itemprop="url" class="repsa-ig-custom-text" href="../donations" target="_blank">Campaign</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="repsa-e repsa-image-wrapper repsa-grid-item repsa-item--landscape">
+                                                                                        <div class="repsa-item-inner">
+                                                                                            <a itemprop="url" class="repsa-ig-custom-link" href="../donations" target="_blank">
+                                                                                                <img
+                                                                                                    width="800"
+                                                                                                    height="391"
+                                                                                                    src="../assets/default/home2-img5.jpg"
+                                                                                                    class="attachment-rightcause_image_size_landscape size-rightcause_image_size_landscape"
+                                                                                                    alt="a"
+                                                                                                    loading="lazy"
+                                                                                                    srcset="
+                                                                                                        ../assets/default/home2-img5.jpg         800w,
+                                                                                                        ../assets/default/home2-img5-300x147.jpg 300w,
+                                                                                                        ../assets/default/home2-img5-768x375.jpg 768w
+                                                                                                    "
+                                                                                                    sizes="(max-width: 800px) 100vw, 800px"
+                                                                                                />
+                                                                                            </a>
+                                                                                            <a itemprop="url" class="repsa-ig-custom-text" href="../donations" target="_blank">All together</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-15d8b03" data-id="15d8b03" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-445485d elementor-widget elementor-widget-rightcause_core_section_title"
+                                                                        data-id="445485d"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_section_title.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-shortcode repsa-m repsa-section-title repsa-alignment--left">
+                                                                                <h3 class="repsa-m-title">
+                                                                                    Our Support
+                                                                                </h3>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-21bb24e elementor-widget elementor-widget-rightcause_core_list_item"
+                                                                        data-id="21bb24e"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_list_item.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-list-item">
+                                                                                <h5 class="repsa-e-title">
+                                                                                    <span class="repsa-e-title-inner">
+                                                                                        <span class="repsa-e-title-text">The services we provide</span>
+                                                                                    </span>
+                                                                                </h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-11af62e elementor-widget elementor-widget-rightcause_core_list_item"
+                                                                        data-id="11af62e"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_list_item.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-list-item">
+                                                                                <h5 class="repsa-e-title">
+                                                                                    <span class="repsa-e-title-inner">
+                                                                                        <span class="repsa-e-title-text">How change happens</span>
+                                                                                    </span>
+                                                                                </h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-b2b07b0 elementor-widget elementor-widget-rightcause_core_list_item"
+                                                                        data-id="b2b07b0"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_list_item.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-list-item">
+                                                                                <h5 class="repsa-e-title">
+                                                                                    <span class="repsa-e-title-inner">
+                                                                                        <span class="repsa-e-title-text">CQC ratings report</span>
+                                                                                    </span>
+                                                                                </h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-fbbdc0b elementor-widget elementor-widget-rightcause_core_list_item"
+                                                                        data-id="fbbdc0b"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_list_item.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-list-item">
+                                                                                <h5 class="repsa-e-title">
+                                                                                    <span class="repsa-e-title-inner">
+                                                                                        <span class="repsa-e-title-text">The difference you make</span>
+                                                                                    </span>
+                                                                                </h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-bf8949e elementor-widget elementor-widget-rightcause_core_list_item"
+                                                                        data-id="bf8949e"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_list_item.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-list-item">
+                                                                                <h5 class="repsa-e-title">
+                                                                                    <span class="repsa-e-title-inner">
+                                                                                        <span class="repsa-e-title-text">People’s stories</span>
+                                                                                    </span>
+                                                                                </h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-5e22863 elementor-widget elementor-widget-rightcause_core_list_item"
+                                                                        data-id="5e22863"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_list_item.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-list-item">
+                                                                                <h5 class="repsa-e-title">
+                                                                                    <span class="repsa-e-title-inner">
+                                                                                        <span class="repsa-e-title-text">Meet our volunteers</span>
+                                                                                    </span>
+                                                                                </h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-bf72d2b elementor-widget elementor-widget-rightcause_core_list_item"
+                                                                        data-id="bf72d2b"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_list_item.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-list-item">
+                                                                                <h5 class="repsa-e-title">
+                                                                                    <span class="repsa-e-title-inner">
+                                                                                        <span class="repsa-e-title-text">Organise your own fundraising</span>
+                                                                                    </span>
+                                                                                </h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-8b66fef elementor-section-full_width elementor-section-height-default elementor-section-height-default repsa-elementor-content-no"
+                                                data-id="8b66fef"
+                                                data-element_type="section"
+                                                data-settings='{"background_background":"classic"}'
+                                            >
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div
+                                                            class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-da224d2 repsa-aboutus-page-responsive-adj"
+                                                            data-id="da224d2"
+                                                            data-element_type="column"
+                                                            data-settings='{"background_background":"classic"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-8da185b elementor-widget elementor-widget-rightcause_core_section_title"
+                                                                        data-id="8da185b"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_section_title.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-shortcode repsa-m repsa-section-title repsa-alignment--left">
+                                                                                <p class="repsa-m-text">Play your part.</p>
+                                                                                <h1 class="repsa-m-title">
+                                                                                    All Lives Matter.<br />
+                                                                                    Don't Turn Away
+                                                                                </h1>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-d3a8610 elementor-widget elementor-widget-rightcause_core_accordion"
+                                                                        data-id="d3a8610"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_accordion.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-shortcode repsa-m repsa-accordion clear repsa-behavior--accordion repsa-layout--simple">
+                                                                                <h4 class="repsa-accordion-title">
+                                                                                    <span class="repsa-tab-title"> Feed the World You Want to Live </span>
+                                                                                    <span class="repsa-accordion-mark">
+                                                                                        <span class="repsa-icon--plus"><i class="kikor kiko-plus-line"></i></span>
+                                                                                        <span class="repsa-icon--minus"><i class="kikor kiko-cross-line"></i></span>
+                                                                                    </span>
+                                                                                </h4>
+                                                                                <div class="repsa-accordion-content">
+                                                                                    <div class="repsa-accordion-content-inner">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                Lorem Ipsum. Proin gravida nibh vel velit auctor aliqusollicitudin, lorem quis bibe ndum auctor, nisi elit consequa, nec sagittis sem nibh id
+                                                                                                elit.
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                Lorem Ipsum. Proin gravida nibh vel velit auctor aliqusollicitudin, lorem quis bibe ndum auctor, nisi elit consequa, nec sagittis sem nibh id
+                                                                                                elit.
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <h4 class="repsa-accordion-title">
+                                                                                    <span class="repsa-tab-title"> Feed the World You Want to Live </span>
+                                                                                    <span class="repsa-accordion-mark">
+                                                                                        <span class="repsa-icon--plus"><i class="kikor kiko-plus-line"></i></span>
+                                                                                        <span class="repsa-icon--minus"><i class="kikor kiko-cross-line"></i></span>
+                                                                                    </span>
+                                                                                </h4>
+                                                                                <div class="repsa-accordion-content">
+                                                                                    <div class="repsa-accordion-content-inner">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                Lorem Ipsum. Proin gravida nibh vel velit auctor aliqusollicitudin, lorem quis bibe ndum auctor, nisi elit consequa, nec sagittis sem nibh id
+                                                                                                elit.
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                Lorem Ipsum. Proin gravida nibh vel velit auctor aliqusollicitudin, lorem quis bibe ndum auctor, nisi elit consequa, nec sagittis sem nibh id
+                                                                                                elit.
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <h4 class="repsa-accordion-title">
+                                                                                    <span class="repsa-tab-title"> Feed the World You Want to Live </span>
+                                                                                    <span class="repsa-accordion-mark">
+                                                                                        <span class="repsa-icon--plus"><i class="kikor kiko-plus-line"></i></span>
+                                                                                        <span class="repsa-icon--minus"><i class="kikor kiko-cross-line"></i></span>
+                                                                                    </span>
+                                                                                </h4>
+                                                                                <div class="repsa-accordion-content">
+                                                                                    <div class="repsa-accordion-content-inner">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                Lorem Ipsum. Proin gravida nibh vel velit auctor aliqusollicitudin, lorem quis bibe ndum auctor, nisi elit consequa, nec sagittis sem nibh id
+                                                                                                elit.
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                Lorem Ipsum. Proin gravida nibh vel velit auctor aliqusollicitudin, lorem quis bibe ndum auctor, nisi elit consequa, nec sagittis sem nibh id
+                                                                                                elit.
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fc4b7b4" data-id="fc4b7b4" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-4c6930c elementor-widget elementor-widget-rightcause_core_image_with_rotate_text"
+                                                                        data-id="4c6930c"
+                                                                        data-element_type="widget"
+                                                                        data-widget_type="rightcause_core_image_with_rotate_text.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="repsa-shortcode repsa-m repsa-image-with-rotate-text repsa-layout--text-below repsa-text-position--top-left repsa-hide-text-680 repsa--has-rotate-text">
+                                                                                <div class="repsa-m-image">
+                                                                                    <div class="repsa-image-with-rotate-text-holder" style="bottom: 74px;">
+                                                                                        <div class="repsa-image-with-rotate-text-inner">
+                                                                                            <p class="repsa-image-with-rotate-text">About Us</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="repsa-m-image-inner">
+                                                                                        <img
+                                                                                            width="800"
+                                                                                            height="1379"
+                                                                                            src="../assets/default/h2-img7.jpg"
+                                                                                            class="attachment-full size-full"
+                                                                                            alt="image"
+                                                                                            loading="lazy"
+                                                                                            srcset="
+                                                                                                ../assets/default/h2-img7.jpg          800w,
+                                                                                                ../assets/default/h2-img7-174x300.jpg  174w,
+                                                                                                ../assets/default/h2-img7-594x1024.jpg 594w,
+                                                                                                ../assets/default/h2-img7-768x1324.jpg 768w
+                                                                                            "
+                                                                                            sizes="(max-width: 800px) 100vw, 800px"
+                                                                                        />
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+            <footer id="repsa-page-footer">
+                <div id="repsa-page-footer-top-area">
+                    <div id="repsa-page-footer-top-area-inner" class="repsa-content-grid">
+                        <div class="repsa-grid repsa-layout--columns repsa-responsive--custom repsa-col-num--2 repsa-col-num--834--1 repsa-col-num--768--1 repsa-col-num--680--1 repsa-col-num--480--1">
+                            <div class="repsa-grid-inner clear">
+                                <div class="repsa-grid-item">
+                                    <div class="widget widget_text" data-area="footer_top_area_column_1">
+                                        <div class="textwidget">
+                                            <div class="repsa-padding-left-100 repsa-light--skin repsa-margin-8-768">
+												<div class="repsa-widget-wrap">
+                                                    <div class="repsa-widget-container">
+                                                        <h2 style="margin: -16px 0 13px 0;">Newsletter</h2>
+                                                    </div>
+												</div>
+												<div style="margin-bottom: 41px;">
+                                                    <div class="repsa-widget-container">
+                                                        <div class="repsa-padding-0-1024 repsa-text padding-0-680" style="padding-right: 115px;">
+                                                            <p>Sign up for our monthly newsletter to get the latest news, volunteer opportunities,</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+												<div class="gdlr-core-pbf-element">
+													<div class="gdlr-core-newsletter-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-style-rectangle">
+	
+														<div class="newsletter newsletter-subscription">
+															<form class="gdlr-core-newsletter-form clearfix" method="post" action="" onsubmit="return newsletter_check(this)">
+																<div class="gdlr-core-newsletter-email" style="float: left;
+																width: 60%;">
+																	<input class="newsletter-email gdlr-core-skin-e-background gdlr-core-skin-e-content" placeholder="Your Email Address" type="email" name="ne" size="30" required="">
+																</div>
+																<div class="gdlr-core-newsletter-submit" style="overflow: hidden;">
+																	<input class="newsletter-submit" style="height: 56px; border: 1px solid #ffffff; background: #121210" type="submit" value="Subscribe">
+																</div>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+                                </div>
+                                <div class="repsa-grid-item">
+                                    <div id="text-13" class="widget widget_text" data-area="footer_top_area_column_2">
+                                        <div class="textwidget">
+                                            <div class="repsa-padding-left-100 repsa-light--skin repsa-margin-8-768">
+                                                <div class="repsa-widget-wrap">
+                                                    <div class="repsa-widget-container">
+                                                        <h2 style="margin: -16px 0 13px 0;">Get in Touch!</h2>
+                                                    </div>
+                                                </div>
+                                                <div style="margin-bottom: 41px;">
+                                                    <div class="repsa-widget-container">
+                                                        <div class="repsa-padding-0-1024 repsa-text padding-0-680" style="padding-right: 115px;">
+                                                            <p>When people help people, change happens. What have you given today?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="repsa-widget-container">
+                                                    <h5 class="repsa-m-title" style="color: #fff; font-weight: bold;">
+                                                        Call: <a class="repsa-custom-link-opacity repsa-light" style="color: #fff; font-weight: bold; display: inline;" href="tel:09056815062">0905 681 5062</a>
+                                                    </h5>
+                                                    <h5 class="repsa-m-title" style="color: #fff; font-weight: bold;">
+                                                        Email: <a class="repsa-custom-link-opacity repsa-light" style="color: #fff; font-weight: bold; display: inline;" href="mailto:cause@repsa.org.ng">cause@repsa.org.ng</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="repsa-page-footer-bottom-area">
+                    <div id="repsa-page-footer-bottom-area-inner" class="repsa-content-grid">
+                        <div class="repsa-grid repsa-layout--columns repsa-responsive--custom repsa-col-num--2 repsa-col-num--1024--2 repsa-col-num--768--1 repsa-col-num--680--1 repsa-col-num--480--1">
+                            <div class="repsa-grid-inner clear">
+                                <div class="repsa-grid-item">
+                                    <div id="text-3" class="widget widget_text" data-area="footer_bottom_area_column_1">
+                                        <div class="textwidget">
+                                            <div class="repsa-footer-bottom-nav">
+                                                <a style="color: #fff; margin-right: 33px;" href="about.html/">About</a>
+                                                <a style="color: #fff; margin-right: 33px;" href="donations">Donations</a>
+                                                <a style="color: #fff; margin-right: 33px;" href="our-volunteers/">Volonteers</a>
+                                                <a style="color: #fff; margin-right: 10px; display: inline;" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Fb.</a>
+                                                <a style="color: #fff; margin-right: 10px; display: inline;" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Ln.</a>
+                                                <a style="color: #fff; margin-right: 10px; display: inline;" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Tw.</a>
+                                                <a style="color: #fff; margin-right: 10px; display: inline;" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">In.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="repsa-grid-item">
+                                    <div id="text-2" class="widget widget_text" data-area="footer_bottom_area_column_2">
+                                        <div class="textwidget">
+                                            <div class="repsa-768-left-align repsa-margin-8-768" style="text-align: right; color: #fff; margin-top: 3px;">
+                                                <span class="repsa-custom-link-text">© Copyright 2020,</span>
+                                                <a class="repsa-custom-link-text" style="color: #fff; display: inline;" href="" target="blank" rel="noopener noreferrer">REPSA</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <a id="repsa-back-to-top" href="index.html#">
+                <span class="repsa-back-to-top-icon"> <span class="repsa-icon-ionicons ion-ios-arrow-up"></span> </span>
+                <span class="repsa-back-to-top-label"> top </span>
+            </a>
+            <div id="repsa-fullscreen-area">
+                <div class="repsa-content-grid">
+                    <div id="repsa-fullscreen-area-inner">
+                        <nav class="repsa-fullscreen-menu">
+                            <ul id="menu-full-screen-menu" class="menu">
+                                <li id="menu-item-2647" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2647 repsa-menu-item--narrow">
+                                    <a href="index.html#"><span class="repsa-menu-item-text">Home</span></a>
+                                    <div class="repsa-drop-down-second">
+                                        <div class="repsa-drop-down-second-inner">
+                                            <ul class="sub-menu">
+                                                <li id="menu-item-3988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3925 current_page_item menu-item-3988">
+                                                    <a href="index.html"><span class="repsa-menu-item-text">Main Home</span></a>
+                                                </li>
+                                                <li id="menu-item-3243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3243">
+                                                    <a href=""><span class="repsa-menu-item-text">Animals Home</span></a>
+                                                </li>
+                                                <li id="menu-item-2900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2900">
+                                                    <a href=""><span class="repsa-menu-item-text">Volunteer Home</span></a>
+                                                </li>
+                                                <li id="menu-item-3246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3246">
+                                                    <a href=""><span class="repsa-menu-item-text">LGBT Home</span></a>
+                                                </li>
+                                                <li id="menu-item-3244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3244">
+                                                    <a href=""><span class="repsa-menu-item-text">Awareness Home</span></a>
+                                                </li>
+                                                <li id="menu-item-3245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3245">
+                                                    <a href=""><span class="repsa-menu-item-text">Environment Home</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="menu-item-2648" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2648 repsa-menu-item--narrow">
+                                    <a href="index.html#"><span class="repsa-menu-item-text">Pages</span></a>
+                                    <div class="repsa-drop-down-second">
+                                        <div class="repsa-drop-down-second-inner">
+                                            <ul class="sub-menu">
+                                                <li id="menu-item-2653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2653">
+                                                    <a href="about-us/index.html"><span class="repsa-menu-item-text">About Us</span></a>
+                                                </li>
+                                                <li id="menu-item-2652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2652">
+                                                    <a href="contact-us/index.html"><span class="repsa-menu-item-text">Contact Us</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="menu-item-2649" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2649 repsa-menu-item--narrow">
+                                    <a href="index.html#"><span class="repsa-menu-item-text">Donations</span></a>
+                                    <div class="repsa-drop-down-second">
+                                        <div class="repsa-drop-down-second-inner">
+                                            <ul class="sub-menu">
+                                                <li id="menu-item-2654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2654">
+                                                    <a href="donation-list/index.html"><span class="repsa-menu-item-text">Donation List</span></a>
+                                                </li>
+                                                <li id="menu-item-4553" class="menu-item menu-item-type-post_type menu-item-object-give_forms menu-item-4553">
+                                                    <a href="donations"><span class="repsa-menu-item-text">Donation Single</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="menu-item-2650" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2650 repsa-menu-item--narrow">
+                                    <a href="index.html#"><span class="repsa-menu-item-text">Events</span></a>
+                                    <div class="repsa-drop-down-second">
+                                        <div class="repsa-drop-down-second-inner">
+                                            <ul class="sub-menu">
+                                                <li id="menu-item-2656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2656">
+                                                    <a href="discover-events/index.html"><span class="repsa-menu-item-text">Event List</span></a>
+                                                </li>
+                                                <li id="menu-item-2657" class="menu-item menu-item-type-post_type menu-item-object-event-item menu-item-2657">
+                                                    <a href="event-item/"><span class="repsa-menu-item-text">Event Single</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="menu-item-3247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3247">
+                                    <a href="landing/index.html"><span class="repsa-menu-item-text">Landing</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rbt-toolbar" data-theme="REPSA" data-featured="" data-button-position="25%" data-button-horizontal="right" data-button-alt="no"></div>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400%7CRaleway:500%7COswald:600" rel="stylesheet" property="stylesheet" media="all" type="text/css" />
+        <script src="assets/cache/minify/0fef6.js"></script>
+        <script src="assets/cache/minify/f3049.js"></script>
+        <script src="assets/cache/minify/ef7e7.js"></script>
+        <script src="assets/cache/minify/3cc4d.js"></script>
+        <script src="assets/cache/minify/7e353.js"></script>
+        <script src="assets/cache/minify/c7165.js"></script>
+        <script src="assets/cache/minify/670d3.js"></script>
+    </body>
+</html>
